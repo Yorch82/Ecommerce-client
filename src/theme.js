@@ -23,7 +23,7 @@ export const shades = {
         800: "#56000b",
         900: "#2b0006"
     },
-    netral: {
+    neutral: {
         100: "#f5f5f5",
         200: "#ecebeb",
         300: "#e2e1e1",
@@ -47,7 +47,7 @@ export const theme = createTheme({
         neutral: {
             dark: shades.neutral[700],
             main: shades.neutral[500],
-            light: shades.netral[100]
+            light: shades.neutral[100]
         }
     },
     typography: {
