@@ -6,7 +6,7 @@ import {
   Typography,
   useTheme,
   Button,
-} from '@mui/icons-material';
+} from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import { shades } from '../theme';
@@ -49,7 +49,7 @@ const Item = ({ item, width }) => {
           style={{ cursor: 'pointer' }}
         />
         <Box
-          display={isHovered ? 'blocked' : 'none'}
+          display={isHovered ? 'block' : 'none'}
           position='absolute'
           bottom='10%'
           left='0'
